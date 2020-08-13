@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.barnner1 {
+  width: 1276px;
+  padding: 20px;
+  background-color: #cfc;
+  border-radius: 26px;
+  height: 316px;
+  margin: 34px 1px 3px 37px;
+}
+
+.barnnerBogota {
+  background-color: #7986cb;
+  height: 85px;
+  width: 90px;
+  position: relative;
+  margin: -107px -61px;
+  border-radius: 20px;
+  /*border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 18px;*/
+}
+
+.barnerBogota2 {
+  position: absolute;
+  height: 85px;
+  width: 90px;
+  background-color: #283593;
+  border-radius: 20px;
+  margin: -72px 2px;
+}
+.clima1 {
+  height: 33px;
+  width: 37px;
+  margin: 25px 24px;
+  z-index: 1;
+  position: absolute;
+}
+.grados {
+  margin: 99px 17px;
+  position: absolute;
+  font-size: 26px;
+  color: white;
+}
+
+.daysfore {
+  margin: 0 -71px;
+}
+.weatherOneDay {
+  width: 199px;
+  height: 92px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+}
+.image1 {
+  height: 24px;
+  width: 32px;
+  margin: 33px 18px;
+  position: absolute;
+  display: inline-block;
+}
+.days {
+  margin: 29px 59px;
+  position: absolute;
+}
+.daysTemp {
+  position: absolute;
+  margin: 44px 71px;
+  color: grey;
+}
+.grade {
+  margin: 33px 16px;
+  color: white;
+}
+.grade2 {
+  margin: 33px 16px;
+  color: black;
+}
+.weatherOneT {
+  width: 86px;
+  height: 90px;
+  position: absolute;
+  background-color: #7986cb;
+  border-radius: 20px;
+  margin: 0px 2px 6px 131px;
+}
+.weatherOneT2 {
+  width: 86px;
+  height: 90px;
+  position: absolute;
+  background-color: #bbdefb;
+  border-radius: 20px;
+  margin: 0px 2px 6px 131px;
+}
+
+.place {
+  margin: 0 -71px;
+}
+.placeTo {
+  background-color: powderblue;
+  border-radius: 20px;
+  margin: 50px 4px 19px 11px;
+  width: 241px;
+  height: 318px;
+}
+.arabia {
+  margin: 0px 0px;
+  width: 244px;
+  height: 317px;
+  border-radius: 20px;
+}
+.sitio1 {
+  width: 30px;
+  height: 27px;
+  margin: -303px 9px;
+  position: absolute;
+}
+.local {
+  margin: -299px 39px;
+  position: absolute;
+  color: white;
+}
+.capit {
+  position: absolute;
+  margin: -281px 31px;
+  font-size: 12px;
+  color: white;
+}
+.art {
+  height: 98px;
+  width: 308px;
+  border-radius: 226px;
+  position: absolute;
+  margin: -3px -6px;
+}
+.museum {
+  position: absolute;
+  margin: 12px 69px;
+  color: white;
+}
+.todRow {
+  margin: 0 -50px;
+}
+.tittle {
+  margin: 0 24px;
+}
+.image {
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+}
+.jumbotrons {
+  width: 256px;
+  height: 48px;
+  background-color: white;
+  position: absolute;
+  margin: -7px 2px;
+}
+.conte {
+  display: flex;
+  align-items: baseline;
+  color: grey;
+  font-size: 12px;
+  margin: 14px 3px 17px 0px;
+}
+.sitiotop {
+  width: 23px;
+  position: absolute;
+  margin: 8px 43px;
+}
+.sitiotop2 {
+  width: 23px;
+  margin: 20px -261px;
+  position: absolute;
+}
+.fountain {
+  position: absolute;
+  margin: -171px 54px;
+  color: white;
+}
+.avatar1 {
+  width: 47px;
+  height: 43px;
+
+  border-radius: 13px;
+  margin: -46px 1px 2px 88px;
+  position: absolute;
+}
+.pic1 {
+  width: 47px;
+  height: 42px;
+  border-radius: 14px;
+}
+.pic2 {
+  width: 47px;
+  height: 42px;
+  border-radius: 14px;
+}
+.pic3 {
+  width: 47px;
+  height: 42px;
+  border-radius: 14px;
+}
+.avatar2 {
+  width: 47px;
+  height: 43px;
+  margin: -46px 0 2px 137px;
+}
+.avatar3 {
+  width: 47px;
+  height: 43px;
+  margin: -46px 0 2px 186px;
+}
+.avatar4 {
+  width: 47px;
+  height: 43px;
+  background-color: grey;
+  border-radius: 13px;
+  margin: -46px 0 2px 234px;
+  position: absolute;
+}
+.fontain {
+  width: 289px;
+  height: 194px;
+  border-radius: 26px;
+}
+.sum {
+  width: 77px;
+  height: 204px;
+  background-color: #7986cb;
+  border-radius: 38px;
+  position: absolute;
+  margin: -199px 215px;
+}
+.mas {
+  margin: 69px 23px;
+  color: white;
+}
+.p4 {
+  margin: 7px 10px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+.conteTopRow1 {
+  background-color: powderblue;
+  border-radius: 37px;
+  margin: 55px 4px 19px 11px;
+  width: 296px;
+  height: 95px;
+}
+.conteTopRow2 {
+  background-color: powderblue;
+  border-radius: 37px;
+  width: 290px;
+  height: 195px;
+  margin: -11px 12px;
+}
+
+.contefrance {
+  margin: 0 -35px;
+}
+.worlWeather1 {
+  width: 230px;
+  height: 121px;
+  background-color: white;
+  border-radius: 20px;
+  margin: -146px 92px;
+  box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.75);
+}
+.franceT {
+  width: 47px;
+  height: 39px;
+  margin: 16px 10px;
+}
+.gradworl {
+  position: absolute;
+  margin: 31px 85px;
+}
+.cityworl {
+  position: absolute;
+  margin: 24px 133px;
+}
+.countryworl {
+  position: absolute;
+  margin: 47px 132px;
+}
+.humidity {
+  position: absolute;
+  margin: 94px 17px;
+  font-size: 10px;
+  color: grey;
+}
+.wost {
+  position: absolute;
+  font-size: 10px;
+  margin: 93px 111px;
+  color: gray;
+}
+.km {
+  position: absolute;
+  font-size: 10px;
+  color: grey;
+  margin: 92px 170px;
+}
+.worlWeather2 {
+  width: 77px;
+  height: 80px;
+  background-color: #bbdefb;
+  border-radius: 20px;
+  margin: 0px 2px 6px 0px;
+}
+.worlWeather11 {
+  width: 230px;
+  height: 121px;
+  background-color: WHITE;
+  border-radius: 20px;
+  margin: 161px 92px;
+  box-shadow: 10px 10px 48px 0px rgba(0, 0, 0, 0.75);
+}
+.worlWeather22 {
+  width: 77px;
+  height: 80px;
+  background-color: #bbdefb;
+  border-radius: 20px;
+  margin: -23px 2px 6px 0px;
+}
+.map {
+  width: 230px;
+  height: 262px;
+  background-color: white;
+  border-radius: 20px;
+  margin: -161px 0 0 89px;
+  border-style: dashed;
+  border-color: #6c757d2b;
+}
+.fondo {
+  width: 1286px;
+  height: 314px;
+  border-radius: 20px;
+  margin: -19px -19px;
+}
+.locations {
+  width: 126px;
+  background: #bbdefb;
+  height: 34px;
+  margin: 14px 47px;
+  border-radius: 21px;
+}
+.locationP {
+  font-size: 13px;
+  margin: 5px 18px;
+  position: absolute;
+}
+.locationWorl {
+  width: 173px;
+  height: 173px;
+  margin: 23px 32px;
+  border-radius: 103px;
+}
+.sitio {
+  width: 35px;
+  height: 37px;
+  margin: 67px 95px;
+  position: absolute;
+}
+.portada {
+  width: 45px;
+  height: 45px;
+  margin: 87px 156px;
+  position: absolute;
+}
+
+.bogota {
+  position: absolute;
+  width: 28px;
+  height: 30px;
+  font-size: 22px;
+  color: white;
+  margin: 110px 199px;
+}
+.cloudy {
+  margin: 64px 25px;
+  color: white;
+  font-size: 12px;
+}
+.paraff {
+  margin: -44px 94px;
+  position: absolute;
+  font-size: 28px;
+}
+.visit {
+  position: absolute;
+  font-size: 28px;
+  margin: -36px 136px;
+}
