@@ -45,7 +45,7 @@ const TopRow = () => {
       <br />
       <div className="conteTopRow2">
         <img src={fontain} alt="" className="fontain" />
-        <img src={sitio} className="sitiotop2" />
+        <img src={sitio} alt="" className="sitiotop2" />
         <h6 className="fountain">Fountain</h6>
         <div className="sum">
           <h1 className="mas">+</h1>

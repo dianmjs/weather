@@ -10,17 +10,16 @@ const ThemeProvider = (props) => {
     var req = new XMLHttpRequest();
     req.open("GET", url, true);
     req.onreadystatechange = function () {
-      if (req.readyState == 4) {
-        if (req.status == 200) {
+      if (req.readyState === 4) {
+        if (req.status === 200) {
           const date = JSON.parse(req.responseText);
-          console.log("icon", date.weather[0].icon);
+
           setTemp({
             temperature: date.main.temp,
             icon: date.weather[0].icon,
             name: date.name,
             estado: date.weather[0].main,
           });
-          console.log("datos api", date);
         } else {
           console.log("error");
         }

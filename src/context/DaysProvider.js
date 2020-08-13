@@ -10,11 +10,10 @@ const DaysProvider = (props) => {
     var req = new XMLHttpRequest();
     req.open("GET", url, true);
     req.onreadystatechange = function () {
-      if (req.readyState == 4) {
-        if (req.status == 200) {
+      if (req.readyState === 4) {
+        if (req.status === 200) {
           const date = JSON.parse(req.responseText);
-          console.log("fecha dias 2", date.list[7].dt_txt);
-          console.log("temperatura minima 2", date.list[7].main.temp_min);
+
           setDays({
             //DIA1
             dia: date.list[0].dt_txt,
@@ -32,7 +31,6 @@ const DaysProvider = (props) => {
             temperatureD3: date.list[16].main.temp,
             temperatureM3: date.list[16].main.temp_min,
           });
-          console.log("datos de los dias", date);
         } else {
           console.log("error");
         }

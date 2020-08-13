@@ -10,17 +10,16 @@ const FranceProvider = (props) => {
     var req = new XMLHttpRequest();
     req.open("GET", url, true);
     req.onreadystatechange = function () {
-      if (req.readyState == 4) {
-        if (req.status == 200) {
+      if (req.readyState === 4) {
+        if (req.status === 200) {
           const date = JSON.parse(req.responseText);
-          console.log("icon", date.weather[0].icon);
+
           setTemF({
             temperatureF: date.main.temp,
             humidity: date.main.humidity,
             nameF: date.name,
             presion: date.main.pressure,
           });
-          console.log("datos api francia", date);
         } else {
           console.log("error");
         }

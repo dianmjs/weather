@@ -1,5 +1,4 @@
 import React from "react";
-import clima from "../Image/clima.png";
 import nube from "../Image/nube.png";
 import { DaysContext } from "../context/DaysProvider";
 import moment from "moment";
@@ -15,7 +14,6 @@ const DaysFore = () => {
   const temprM2 = Math.round(days.temperatureM2);
   const temprD3 = Math.round(days.temperatureD3);
   const temperM3 = Math.round(days.temperatureM3);
-  console.log("temperatura dia 2", temprM2);
 
   return (
     <div className="daysfore">

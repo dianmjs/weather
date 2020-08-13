@@ -12,7 +12,7 @@ const PlaceTo = () => {
       <p className="visit">Visit</p>
       <div className="placeTo">
         <img src={arabia} alt="" className="arabia" />
-        <img src={sitio} className="sitio1" />
+        <img src={sitio} alt="" className="sitio1" />
         <h6 className="local">
           <b>Arab Street</b>
         </h6>
