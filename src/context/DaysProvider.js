@@ -22,15 +22,15 @@ const DaysProvider = (props) => {
             temperatureD: date.list[0].main.temp,
             temperatureM: date.list[0].main.temp_min,
             //DIA 2
-            dia2: date.list[7].dt_txt,
-            estado2: date.list[7].weather[0].main,
-            temperatureD2: date.list[7].main.temp,
-            temperatureM2: date.list[7].main.temp_min,
+            dia2: date.list[8].dt_txt,
+            estado2: date.list[8].weather[0].main,
+            temperatureD2: date.list[8].main.temp,
+            temperatureM2: date.list[8].main.temp_min,
             //DIA 3
-            dia3: date.list[15].dt_txt,
-            estado3: date.list[15].weather[0].main,
-            temperatureD3: date.list[15].main.temp,
-            temperatureM3: date.list[15].main.temp_min,
+            dia3: date.list[16].dt_txt,
+            estado3: date.list[16].weather[0].main,
+            temperatureD3: date.list[16].main.temp,
+            temperatureM3: date.list[16].main.temp_min,
           });
           console.log("datos de los dias", date);
         } else {
